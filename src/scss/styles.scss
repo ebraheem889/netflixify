@@ -1,0 +1,21 @@
+@import"../bootstrap/functions";
+@import"../bootstrap/variables";
+
+
+@import "pages/login";
+@import "pages/index";
+@import "pages/show";
+
+
+
+.bg-black-transparent{
+
+
+    background: rgba($black, 0.9) !important;
+}
+
+body{
+
+
+    background-color: $black;
+}

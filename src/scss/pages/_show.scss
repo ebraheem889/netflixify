@@ -1,0 +1,46 @@
+
+#show{
+
+
+    .movie{
+
+        padding: 8% 0;
+        position: relative;
+        min-height:100vh;
+        background: $black;
+
+        
+    .movie_bg{
+
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+       
+    
+    }
+
+    .movie_paly_icon{
+
+
+     background: $primary;
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+     
+
+    }
+
+    .movie_starts{
+
+
+        font-size: 1.7rem;
+    }
+
+
+  
+    }
+
+    
+}

@@ -1,0 +1,136 @@
+#banner{
+
+
+    .form-control[type="search"]::placeholder{
+
+        color: $white;
+
+    }
+
+    .movie{
+
+        position: relative;
+        min-height:100vh;
+        background:$dark;
+
+        .movie__bg{
+
+            position: absolute;
+            top: 0;
+            left: 0p;
+            height: 100%;
+            width: 100%;
+            background:linear-gradient(rgba(0,0,0,6),rgba(0,0,0,6)); 
+            background:url('/dist/images/ironman.jpg') center/cover no-repeat;
+
+            filter: blur(4px);
+        }
+        .movie__rating .fa{
+
+            font-size: 1.5rem;
+        }
+        .movie__description{
+
+            font-size: 1.2rem;
+            font-weight: 300;
+            line-height: 2;
+        }
+    }
+
+
+}
+
+
+.listing{
+
+    .movie{
+
+        background: $black;
+        position: relative;
+        -webkit-transition:all 0.2s ease-in-out;
+            -moz-transition:all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition:all 0.2s ease-in-out;
+
+        &:hover img{
+
+            opacity: 0.5;
+            -webkit-transition:all 0.2s ease-in-out;
+            -moz-transition:all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition:all 0.2s ease-in-out;
+        
+            
+        }
+        &:hover .movie_details{
+            opacity: 1;
+            -webkit-transition:all 0.2s ease-in-out;
+            -moz-transition:all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition:all 0.2s ease-in-out;
+            
+        }
+        .movie_details{
+
+
+            position: absolute;
+            width: 90%;
+            left: 15px;
+            right: 15px;
+            bottom: 3%;
+            opacity: 0;
+           
+          
+        }
+
+        }
+
+        
+
+        .fa-star{
+
+            font-size: 1.3rem;
+          
+        }
+
+       
+
+        .movie_name{
+
+            font-size: 1.2rem;
+        }
+    
+        .movie_year{
+
+            font-size: 1.2rem;
+        }
+
+         .fa-heart:hover
+        {
+
+           cursor: pointer;
+           color: $primary;
+        }
+
+
+
+
+    
+}
+
+
+#footer{
+
+
+
+    .social_icons{
+
+        font-size: 1.2rem;
+        
+        .fa-facebook,.fa-youtube,.fa-twitter{
+
+
+            cursor: pointer;
+        }
+    }
+}
